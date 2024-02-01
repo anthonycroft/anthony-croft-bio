@@ -1,0 +1,72 @@
+/* Stylesheet for the HTML/CSS Layout activity */
+
+/* Add your CSS here */
+
+/* reset.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* body.css */
+body {
+  background: #efeee7;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  color: #333333;
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+/* header.css */
+header {
+  background: #333333;
+}
+
+/* h1.css */
+header h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #eee;
+  font-size: 28px;
+  text-align: center;
+}
+
+/* h2.css */
+h2 {
+  font-size: 24px;
+}
+
+/* container.css */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* main.css */
+#main-bio, 
+#contact-info, 
+#bio-image {
+  float: left;
+}
+
+/* main-bio.css */
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+/* contact-info.css */
+#main-bio {
+  width: 70%;
+}
+
+/* bio-image.css */
+#contact-info {
+  width: 30%;
+}
+
+a {
+  color: #d21034;
+}
